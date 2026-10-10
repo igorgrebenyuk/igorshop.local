@@ -1,0 +1,25 @@
+# Настройки подключения к базе данных
+/public/wp-config.php
+
+# Локальные настройки и секреты
+.env
+.env.*
+*.log
+
+# Временные файлы WordPress
+/public/wp-content/cache/
+/public/wp-content/upgrade/
+/public/wp-content/debug.log
+
+# Служебные файлы плагинов
+/public/wp-content/uploads/wc-logs/
+/public/wp-content/uploads/woocommerce_uploads/
+/public/wp-content/uploads/forminator/
+/public/wp-content/uploads/wpforms/
+/public/wp-content/updraft/
+/public/wp-content/ai1wm-backups/
+
+# Экспорт базы данных
+/database/
+*.sql
+*.sql.gz
